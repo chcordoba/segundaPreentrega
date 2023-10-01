@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+header{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.encabezado{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+body{
+    margin: 20px;
+    padding: 20px;
+}
+
+#titulo1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+    font-size:xx-large ;
+    color:rgb(27, 83, 83)
+      
+}
+
+#home2{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    margin: 30px,40px,20px,15px;
+}
+
+#home1{
+    color:whitesmoke;
+    font-weight: 200;
+    font-size: x-large;
+    text-align: center;
+    height: 21em;;
+    background-image:url(/assets/image/fondo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+#propuesta{
+    background-color: gray;
+}
+
+.propuesta{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+#propuesta01{
+    color:white;
+    text-overflow: ellipsis;
+    text-align:center;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    background-image: url(/assets/image/edificio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:space-around;
+    flex-flow:wrap;
+
+}
+#propuesta2{
+    color:white;
+    width: 200px;
+    height: 200px;
+    background-image: url(/assets/image/apreton-de-manos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:space-around;
+    flex-flow:wrap;
+}
+#propuesta3{
+    color:white;
+    width: 200px;
+    height: 200px;
+    background-image: url(/assets/image/lupa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:space-around;
+    flex-flow:wrap;
+}
+#propuesta4{
+    color:white;
+    width: 200px;
+    height: 200px;
+    background-image: url(/assets/image/burbuja-de-dialogo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:space-around;
+    flex-flow:wrap;
+}
+#propuesta5{
+    color:white;
+    width: 200px;
+    height: 200px;
+    background-image: url(/assets/image/libro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:space-around;
+    flex-flow:wrap;
+}
+#propuesta6{
+    color:white;
+    width: 200px;
+    height: 200px;
+    background-image: url(/assets/image/ring-phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:space-around;
+    flex-flow:wrap;
+
+}
+#propuesta7{
+    color:white;
+    width: 200px;
+    height: 200px;
+    background-image: url(/assets/image/certificado.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:space-around;
+    flex-flow:wrap;
+}
+
+#bodyAdmin{
+    background-image: url(/assets/image/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.tituloAdmin{
+    width: 300px;
+    height: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: gray;
+    grid-template-columns: (3,1fr);
+    flex-direction: column;
+}
+
+.parafoAdmin{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(35, 32, 32);
+    display: grid;
+    grid-template-columns: (3,1fr);
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+#contacto1{
+    text-align: center;
+    color: whitesmoke;
+    background-image: url(/assets/image/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+#contacto2{
+    color: whitesmoke;
+    text-align: center;
+    background-color: gray;
+    background-position: center;
+    font-weight: bold;
+}
+
+/*vistatablet*/
+/*768px hasta1023px*/
+
+@media(mx-width:1023px){
+/*header*/
+.encabezado{
+height: auto;
+flex-direction: column;
+text-align: center ;
+}
+
+.home{
+    font-size: 2.5rem;
+}
+}
